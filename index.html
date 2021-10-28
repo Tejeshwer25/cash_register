@@ -12,7 +12,58 @@
 
 <body>
     <div>
-        <header></header>
+        <header>
+            <h1>Cash Register Management</h1>
+            <p>Enter the total bill amount and the amount given by the customer, in the respective input fields.</p>
+            <p>We'll then tell you the change outstanding to the customer.</p>
+        </header>
+
+        <section>
+            <form>
+                <div>
+                    <label>Bill Amount:</label>
+                    <input type="text" name="billAmount" id="billAmount" />
+                </div>
+
+                <div>
+                    <label>Cash given by Customer:</label>
+                    <input type="text" name="customerAmount" id="customerAmount" />
+                </div>
+
+                <button id="getChangeBtn" type="button">Get Change</button>
+            </form>
+
+            <section>
+                <h2>Change to be returned..</h2>
+                <table>
+                    <tr>
+                        <td>No. of notes</td>
+                        <td id="2000Notes"></td>
+                        <td id="500Notes"></td>
+                        <td id="100Notes"></td>
+                        <td id="20Notes"></td>
+                        <td id="10Notes"></td>
+                        <td id="5Notes"></td>
+                        <td id="1Notes"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Denomination</td>
+                        <td>Rs. 2000</td>
+                        <td>Rs. 500</td>
+                        <td>Rs. 100</td>
+                        <td>Rs. 20</td>
+                        <td>Rs. 10</td>
+                        <td>Rs. 5</td>
+                        <td>Rs. 1</td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+
+        <footer>
+            Made with ❤ by <a href="https://tejeshwer-singh.netlify.app/" target="_blank">Tejeshwer Singh</a>
+        </footer>
     </div>
 
     <script src="./app.js"></script>
