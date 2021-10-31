@@ -12,7 +12,7 @@
 
 <body>
     <div>
-        <header>
+        <header class="header">
             <h1>Cash Register Management</h1>
             <p>Enter the total bill amount and the amount given by the customer, in the respective input fields.</p>
             <p>We'll then tell you the change outstanding to the customer.</p>
@@ -22,20 +22,20 @@
             <form>
                 <div>
                     <label>Bill Amount:</label>
-                    <input type="text" name="billAmount" id="billAmount" />
+                    <input type="number" name="billAmount" id="billAmount" />
                 </div>
 
                 <div>
                     <label>Cash given by Customer:</label>
-                    <input type="text" name="customerAmount" id="customerAmount" />
+                    <input type="number" name="customerAmount" id="customerAmount" />
                 </div>
 
                 <button id="getChangeBtn" type="button">Get Change</button>
             </form>
 
-            <section>
+            <section class="changeSection">
                 <h2>Change to be returned..</h2>
-                <table>
+                <table >
                     <tr>
                         <td>No. of notes</td>
                         <td id="2000Notes"></td>
@@ -62,7 +62,7 @@
         </section>
 
         <footer>
-            Made with ❤ by <a href="https://tejeshwer-singh.netlify.app/" target="_blank">Tejeshwer Singh</a>
+            Made with <span>❤</span> by <a href="https://tejeshwer-singh.netlify.app/" target="_blank">Tejeshwer Singh</a>
         </footer>
     </div>
 
