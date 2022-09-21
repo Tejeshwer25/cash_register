@@ -1,107 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Voces&display=swap");
 
 :root {
-    --textColor: #e6a257;
-    --backgroundColor: #DCDCDC;
-    --fontFamily: "Voces"
+  --textColor: #e6a257;
+  --backgroundColor: #dcdcdc;
+  --fontFamily: "Voces";
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.6;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.6;
 }
 
 body {
-    text-align: center;
-    /* margin: 3rem 0rem; */
-    font-family: var(--fontFamily);
-    background-color: var(--backgroundColor);
-    font-size: 1.25rem;
+  text-align: center;
+  /* margin: 3rem 0rem; */
+  font-family: var(--fontFamily);
+  background-color: var(--backgroundColor);
+  font-size: 1.25rem;
 }
 
-h1, h2 {
-    color: var(--textColor);
-    padding: 1rem;
+h1,
+h2 {
+  color: var(--textColor);
+  padding: 1rem;
 }
 
 h1 {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 
 h2 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
-.header, form, .changeSection {
-    margin: 2rem 0rem
+.header,
+form,
+.changeSection {
+  margin: 2rem 0rem;
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 input {
-    height: 1.5rem;
-    width: 20rem;
-    border-radius: 10px;
-    outline: none;
-    font-size: 1.15rem;
-    border: 3px solid var(--textColor);
-    background-color: transparent;
-    padding: 0.25rem 0.51rem;
+  height: 1.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.15rem;
+  border: 3px solid var(--textColor);
+  background-color: transparent;
+  padding: 0.25rem 0.51rem;
 }
 
 form > div {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 form > div > label {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 form > button {
-    padding:0.5rem 1rem;
-    border: 2px solid var(--textColor);
-    outline: none;
-    background: transparent;
-    font-family: var(--fontFamily);
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-radius: 15px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--textColor);
+  outline: none;
+  background: transparent;
+  font-family: var(--fontFamily);
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 form > button:hover {
-    background-color: var(--textColor);
+  background-color: var(--textColor);
 }
 
-table, tr, td {
-    border: 2px solid var(--textColor);
-    border-collapse: collapse;
+table,
+tr,
+td {
+  border: 2px solid var(--textColor);
+  border-collapse: collapse;
 }
 
 table {
-    margin: auto;
+  margin: auto;
 }
 
 table td {
-    padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 footer {
-    background-color: var(--textColor);
-    padding: 2rem 0rem;
-    font-size: 1.3rem;
-    font-weight: 600;
+  background-color: var(--textColor);
+  padding: 2rem 0rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 footer > span {
-    color: red;
+  color: red;
 }
 
 footer > a {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
